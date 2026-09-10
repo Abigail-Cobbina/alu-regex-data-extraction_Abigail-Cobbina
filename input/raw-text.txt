@@ -1,0 +1,38 @@
+CUSTOMER SUPPORT RECORD
+=======================
+
+Customer: Ama Cobbina
+Email: ama.cobbina@alueducation.com
+Phone: +250 123 456 789
+Website: https://www.alueducation.com
+
+Payment Information
+-------------------
+Card Number: 4111 1111 1111 1111
+
+
+Customer: Tom Jones
+Email: T.jones@alumni.alueducation.com
+Phone: +250 000 678 876
+Website: https://alueducation.com/alumni
+
+
+Customer: Sarah Miles
+Email: sarah.m@si.alueducation.com
+Phone: +250 111 222 333
+Website: https://www.alueducation.com/programs
+
+
+Payment Information
+-------------------
+Card Number: 4111 1111 1111 1111
+
+INVALID DATA TESTS
+==================
+
+Email: ama@@alueducation.com
+Email: student@fake-alueducation.com
+Email: missing-domain@
+Phone: +250 ABC 123 !$#
+Website: https://
+Card Number: 4111 1111 1111 ABCD
