@@ -1,0 +1,21 @@
+{
+    "emails": [
+        "ama.cobbina@alueducation.com",
+        "ama.cobbina@alueducation.com",
+        "T.jones@alumni.alueducation.com",
+        "sarah.m@si.alueducation.com"
+    ],
+    "credit_cards": [
+        "**** **** **** 1111"
+    ],
+    "phone_numbers": [
+        "+250 123 456 789",
+        "+250 000 678 876",
+        "+250 111 222 333"
+    ],
+    "urls": [
+        "https://www.alueducation.com",
+        "https://alueducation.com/alumni",
+        "https://www.alueducation.com/programs"
+    ]
+}
