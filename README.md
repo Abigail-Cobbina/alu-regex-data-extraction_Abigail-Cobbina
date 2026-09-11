@@ -56,11 +56,12 @@ The program uses different Regex patterns for each type of data:
 
 ## Validation and Security
 
-The raw text is treated as **untrusted input** because it could contain incorrect or harmful data.
+The raw text is treated as **untrusted input** because it could contain incorrect, malformed, or harmful data.
 
-* Invalid email, phone, URL, and card formats are not accepted as valid matches.
-* Credit-card numbers are checked using the **Luhn algorithm**.
-* Valid card numbers are masked before being placed in the output.
+* Invalid formats are ignored instead of being treated as valid data.
+* Credit-card numbers are additionally checked using the Luhn algorithm.
+* Valid credit-card numbers are masked before being placed in the output so the full payment-card number is not exposed.
+* Email addresses are included in the output because email extraction is a required part of the assignment. In a real system, access to extracted email data should be limited to what is necessary.
 * The program does not execute code found inside the raw text.
 * Regex helps with validation, but **Regex alone is not a complete security system**.
 
